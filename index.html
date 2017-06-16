@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Galactic Travel App</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <h1>The Galactic Travel Agency</h1>
+
+            <form id="search-form" class="form-inline">
+              <div class="form-group">
+                <label for="planet">Planet Destination</label>
+                <input type="text" class="form-control" id="planet" placeholder="Somewhere far far away...">
+              </div>
+              <button type="submit" class="btn btn-default">Search</button>
+            </form>
+          </div>
+
+          <h2>Your Results</h2>
+
+          <ul class="search-results"></ul>
+
+          <ul class="testing">
+            <li>One</li>
+            <li class="leave-me-alone">Not Me</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
